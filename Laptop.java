@@ -1,7 +1,9 @@
 class Laptop {
 
     static boolean isPowered;
-
+	static int currentVolume;
+	static int maxVolume = 8;
+	static int minVolume;
     static boolean onOrOff() {
 
         if (isPowered == false) {
@@ -13,4 +15,33 @@ class Laptop {
         }
         return isPowered;
     }
+	static void increaseVolume(){
+		if(isPowered){
+			if(currentVolume < maxVolume){
+				currentVolume++;
+				System.out.println("the current volume is "+currentVolume);
+			}else{
+				System.out.println("The mix volume is reached .....");
+			}
+			
+		}else{
+			System.out.println("Turn on the  Laptop...");
+		}
+	
+	}
+	static void decreaseVolume(){
+		if(isPowered){
+			if( currentVolume > minVolume ){
+				currentVolume--;
+				System.out.println("the current volume is "+currentVolume);
+			}
+			else{
+				System.out.println("The min volume is reached .....");
+			}
+			
+		}
+		else{
+			System.out.println("Turn on the Laptop...");
+		}
+	}
 }
