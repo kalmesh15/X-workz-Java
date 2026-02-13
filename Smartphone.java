@@ -1,52 +1,52 @@
-class Laptop {
+class Smartphone {
 
     static String getBrand(){
         System.out.print("Brand: ");
-        return "Dell";
+        return "Samsung";
     }
 
     static String getModel(){
         System.out.print("Model: ");
-        return "Inspiron 15";
+        return "Galaxy S23";
     }
 
     static double getPrice(){
         System.out.print("Price: ");
-        return 58999.00;
+        return 74999.00;
     }
 
     static String getProcessor(){
         System.out.print("Processor: ");
-        return "Intel i5 12th Gen";
+        return "Snapdragon 8 Gen 2";
     }
 
     static String getRAM(){
         System.out.print("RAM: ");
-        return "16GB";
+        return "8GB";
     }
 
     static String getStorage(){
         System.out.print("Storage: ");
-        return "512GB SSD";
+        return "256GB";
     }
 
-    static String getDisplaySize(){
+    static String getBattery(){
+        System.out.print("Battery: ");
+        return "3900mAh";
+    }
+
+    static String getCamera(){
+        System.out.print("Camera: ");
+        return "50MP";
+    }
+
+    static String getDisplay(){
         System.out.print("Display: ");
-        return "15.6 inch";
-    }
-
-    static String getOS(){
-        System.out.print("Operating System: ");
-        return "Windows 11";
-    }
-
-    static String getWeight(){
-        System.out.print("Weight: ");
-        return "1.8 kg";
+        return "6.1 inch AMOLED";
     }
 
     static String getASIN(){
         System.out.print("ASIN: ");
-        return "B09LAP1234";
+        return "B0SMART123";
     }
 }

@@ -1,52 +1,52 @@
-class Refrigerator {
+class MicrowaveOven {
 
     static String getBrand(){
         System.out.print("Brand: ");
-        return "LG";
+        return "Samsung";
     }
 
     static String getModel(){
         System.out.print("Model: ");
-        return "GL-T292RPZ3";
+        return "MC28A5013AK";
     }
 
     static double getPrice(){
         System.out.print("Price: ");
-        return 28999.00;
+        return 12990.00;
     }
 
     static String getCapacity(){
         System.out.print("Capacity: ");
-        return "260 Litres";
+        return "28 Litres";
     }
 
-    static String getEnergyRating(){
-        System.out.print("Energy Rating: ");
-        return "3 Star";
+    static String getPower(){
+        System.out.print("Power: ");
+        return "900 Watts";
     }
 
-    static String getCompressorType(){
-        System.out.print("Compressor: ");
-        return "Inverter";
+    static String getType(){
+        System.out.print("Type: ");
+        return "Convection";
     }
 
-    static String getDoorType(){
-        System.out.print("Door Type: ");
-        return "Double Door";
+    static String getControlType(){
+        System.out.print("Control Type: ");
+        return "Touch Keypad";
     }
 
     static String getColor(){
         System.out.print("Color: ");
-        return "Shiny Steel";
+        return "Black";
     }
 
     static String getWeight(){
         System.out.print("Weight: ");
-        return "48 kg";
+        return "17.8 kg";
     }
 
     static String getASIN(){
         System.out.print("ASIN: ");
-        return "B0FRIDGE123";
+        return "B0MICRO123";
     }
 }

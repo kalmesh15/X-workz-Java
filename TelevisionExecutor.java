@@ -1,33 +1,15 @@
 class TelevisionExecutor {
-
     public static void main(String[] args) {
 
-        boolean ref = Television.onOrOff();
-        System.out.println("The Television is turned " + ref);
-		
-		Television.increaseVolume();
-		Television.increaseVolume();
-		Television.increaseVolume();
-		Television.increaseVolume();
-		Television.increaseVolume();
-		ref = Television.onOrOff();
-		Television.increaseVolume();
-		 ref = Television.onOrOff();
-		Television.increaseVolume();
-		Television.increaseVolume();
-		Television.increaseVolume();
-		Television.increaseVolume();
-		Television.decreaseVolume();
-		ref = Television.onOrOff();
-		Television.decreaseVolume();
-		ref = Television.onOrOff();
-		Television.decreaseVolume();
-		Television.decreaseVolume();
-		Television.decreaseVolume();
-		Television.decreaseVolume();
-		Television.decreaseVolume();
-		Television.decreaseVolume();
-		Television.decreaseVolume();
-		Television.decreaseVolume();
+        System.out.println(Television.getBrand());
+        System.out.println(Television.getModel());
+        System.out.println(Television.getPrice());
+        System.out.println(Television.getScreenSize());
+        System.out.println(Television.getResolution());
+        System.out.println(Television.getDisplayType());
+        System.out.println(Television.getSmartFeatures());
+        System.out.println(Television.getHDMISlots());
+        System.out.println(Television.getRefreshRate());
+        System.out.println(Television.getASIN());
     }
 }

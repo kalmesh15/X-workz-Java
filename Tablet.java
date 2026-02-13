@@ -1,52 +1,52 @@
-class Laptop {
+class Tablet {
 
     static String getBrand(){
         System.out.print("Brand: ");
-        return "Dell";
+        return "Lenovo";
     }
 
     static String getModel(){
         System.out.print("Model: ");
-        return "Inspiron 15";
+        return "Tab M10";
     }
 
     static double getPrice(){
         System.out.print("Price: ");
-        return 58999.00;
+        return 18999.00;
+    }
+
+    static String getDisplay(){
+        System.out.print("Display: ");
+        return "10.1 inch Full HD";
     }
 
     static String getProcessor(){
         System.out.print("Processor: ");
-        return "Intel i5 12th Gen";
+        return "MediaTek Helio G80";
     }
 
     static String getRAM(){
         System.out.print("RAM: ");
-        return "16GB";
+        return "4GB";
     }
 
     static String getStorage(){
         System.out.print("Storage: ");
-        return "512GB SSD";
+        return "64GB";
     }
 
-    static String getDisplaySize(){
-        System.out.print("Display: ");
-        return "15.6 inch";
+    static String getBattery(){
+        System.out.print("Battery: ");
+        return "5000mAh";
     }
 
     static String getOS(){
         System.out.print("Operating System: ");
-        return "Windows 11";
-    }
-
-    static String getWeight(){
-        System.out.print("Weight: ");
-        return "1.8 kg";
+        return "Android 13";
     }
 
     static String getASIN(){
         System.out.print("ASIN: ");
-        return "B09LAP1234";
+        return "B0TAB123";
     }
 }

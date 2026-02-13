@@ -1,49 +1,52 @@
 class AirConditioner {
 
-    static boolean isCooling;
-	static int currentVolume;
-	static int maxVolume = 8;
-	static int minVolume;
-    static boolean onOrOff() {
+    static String getBrand(){
+        System.out.print("Brand: ");
+        return "Daikin";
+    }
 
-        if (isCooling == false) {
-            isCooling = true;
-            System.out.println("The AC is turned on...");
-        } else {
-            isCooling = false;
-            System.out.println("The AC is turned off...");
-        }
-        return isCooling;
-		
-	
-	}
-	static void increaseVolume(){
-		if(isCooling){
-			if(currentVolume < maxVolume){
-				currentVolume++;
-				System.out.println("the current volume is "+currentVolume);
-			}else{
-				System.out.println("The mix volume is reached .....");
-			}
-			
-		}else{
-			System.out.println("Turn on the  AC...");
-		}
-	
-	}
-	static void decreaseVolume(){
-		if(isCooling == true){
-			if( currentVolume > minVolume ){
-				currentVolume--;
-				System.out.println("the current volume is "+currentVolume);
-			}
-			else{
-				System.out.println("The min volume is reached .....");
-			}
-			
-		}
-		else{
-			System.out.println("Turn on the Air Conditioner...");
-		}
-}
+    static String getModel(){
+        System.out.print("Model: ");
+        return "FTKF50TV";
+    }
+
+    static double getPrice(){
+        System.out.print("Price: ");
+        return 45990.00;
+    }
+
+    static String getCapacity(){
+        System.out.print("Capacity: ");
+        return "1.5 Ton";
+    }
+
+    static String getEnergyRating(){
+        System.out.print("Energy Rating: ");
+        return "5 Star";
+    }
+
+    static String getCompressor(){
+        System.out.print("Compressor: ");
+        return "Inverter";
+    }
+
+    static String getCoolingPower(){
+        System.out.print("Cooling Power: ");
+        return "5000 Watts";
+    }
+
+    static String getNoiseLevel(){
+        System.out.print("Noise Level: ");
+        return "45 dB";
+    }
+
+    static String getColor(){
+        System.out.print("Color: ");
+        return "White";
+    }
+
+    static String getASIN(){
+        System.out.print("ASIN: ");
+        return "B0AC123";
+    }
 }
